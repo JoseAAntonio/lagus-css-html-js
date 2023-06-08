@@ -13,7 +13,18 @@ export default function Header() {
 
 	return (
 		<div className={style.header}>
-			<button onClick={handleClick}>clicked {count} times</button>
+			<div className={style.menu}>
+				<Image
+					className={style.hamburguer}
+					src='/assets/menu.svg'
+					alt='menu'
+					width={20.66}
+					height={18}
+				/>
+
+				<button onClick={handleClick}>clicked {count} times</button>
+			</div>
+
 			<div className={style.logo}>
 				Lagus<span>_</span>
 			</div>

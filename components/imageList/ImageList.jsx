@@ -11,22 +11,27 @@ export default function ImageList() {
 			<div className={styles.imgContainer}>
 				<div className={styles.img1}>
 					<div className={styles.title2}>
-						<div class={styles.barra}></div>
-						<h2>Atom in the hand of a robot</h2>
+						<div class={styles.barraTitulo}>
+							<h2>Atom in the hand of a robot</h2>
+						</div>
 					</div>
 					<img src='/assets/pic-atom.png' alt='Atom in the hand of a robot' />
 				</div>
 				<div className={styles.img2}>
-					<div class={styles.barra}></div>
-					<h2>Person working on a website</h2>
+					<div class={styles.barraTitulo}>
+						<h2>Person working on a website</h2>
+					</div>
+
 					<img
 						src='/assets/pic-man-code.png'
 						alt='Person working on a website'
 					/>
 				</div>
 				<div className={styles.img3}>
-					<div class={styles.barra}></div>
-					<h2>Women working in styles and ESLint configurations</h2>
+					<div class={styles.barraTitulo}>
+						<h2>Women working in styles and ESLint configurations</h2>
+					</div>
+
 					<img
 						src='/assets/pic-woman-code.png'
 						alt='Women working in styles and ESLint configurations'
